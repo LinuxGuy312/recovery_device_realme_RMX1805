@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/twrp_RMX1805.mk
+	$(LOCAL_DIR)/shrp_RMX1805.mk
