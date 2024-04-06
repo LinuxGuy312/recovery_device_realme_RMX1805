@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common TWRP stuff.
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 $(call inherit-product, build/target/product/embedded.mk)
 
@@ -27,8 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := RMX1811
-PRODUCT_NAME := omni_RMX1811
+PRODUCT_DEVICE := RMX1805
+PRODUCT_NAME := shrp_RMX1805
 PRODUCT_BRAND := Oppo
-PRODUCT_MODEL := Realme C1
+PRODUCT_MODEL := Realme 2
 PRODUCT_MANUFACTURER := Oppo

@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/realme/RMX1811
+LOCAL_PATH := device/realme/RMX1805
 
 # Architecture
 TARGET_ARCH := arm64

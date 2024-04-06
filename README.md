@@ -1,8 +1,8 @@
-# TWRP device tree for Realme RMX1811 (Realme C1)
+# TWRP device tree for Realme RMX1805 (Realme 2)
 
 ## About Device
 
-![Realme RMX1811](https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ84z5NSprlGxWTZ-t0DsJ2lLABROWAvJ8WEe1pfeop25kodMTtqFMwBpareQMHqY4Y9hRhhvdDxulSeqlcED9PLEDWD81snQ&usqp=CAc)
+![Realme 2 (RMX1805)](https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQ84z5NSprlGxWTZ-t0DsJ2lLABROWAvJ8WEe1pfeop25kodMTtqFMwBpareQMHqY4Y9hRhhvdDxulSeqlcED9PLEDWD81snQ&usqp=CAc)
 
 ### Specifications
 
@@ -10,7 +10,7 @@
 Component Type | Details
 --------------:|:-------
 Brand | Realme
-Model | C1
+Model | 2
 Release date | September 2018
 Launched in India | Yes
 Form factor | Touchscreen
@@ -47,6 +47,7 @@ Connectivity | -
 Wi-Fi | Yes
 Bluetooth | Yes
 Sensors | -
+Fingerprint | Yes
 Face unlock | Yes
 Compass/ Magnetometer | Yes
 Proximity sensor | Yes
@@ -59,6 +60,6 @@ Ambient light sensor | Yes
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 source build/envsetup.sh
-lunch omni_RMX1811-eng
+lunch twrp_RMX1805-eng
 mka recoveryimage
 ```
