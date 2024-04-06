@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/twrp_RMX1805.mk
+
+COMMON_LUNCH_CHOICES := \
+	twrp_RMX1805-eng \
+	twrp_RMX1805-user \
+	twrp_RMX1805-userdebug
