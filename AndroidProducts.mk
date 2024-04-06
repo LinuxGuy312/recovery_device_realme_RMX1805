@@ -16,3 +16,8 @@
 
 PRODUCT_MAKEFILES := \
 	$(LOCAL_DIR)/shrp_RMX1805.mk
+
+COMMON_LUNCH_CHOICES := \
+	shrp_RMX1805-eng \
+	shrp_RMX1805-user \
+	shrp_RMX1805-userdebug 
