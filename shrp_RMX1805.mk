@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit some common TWRP stuff.
-$(call inherit-product, vendor/twrp/config/common.mk)
+# Inherit some common Omni stuff.
+$(call inherit-product, vendor/omni/config/common.mk)
 
 $(call inherit-product, build/target/product/embedded.mk)
 
