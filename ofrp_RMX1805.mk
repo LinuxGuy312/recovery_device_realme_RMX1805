@@ -14,8 +14,6 @@
 # limitations under the License.
 #
 
-PRODUCT_RELEASE_NAME = RMX1805
-
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)
 
@@ -29,8 +27,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.hardware.keystore=msm8953
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := $(PRDUCT_RELEASE_NAME)
-PRODUCT_NAME := ofrp_$(PRODUCT_RELEASE_NAME)
+PRODUCT_DEVICE := RMX1805
+PRODUCT_NAME := ofrp_$(PRODUCT_DEVICE)
 PRODUCT_BRAND := Oppo
 PRODUCT_MODEL := Realme 2
 PRODUCT_MANUFACTURER := Oppo
