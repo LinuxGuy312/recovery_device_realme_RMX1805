@@ -29,5 +29,5 @@ export FOX_DELETE_AROMAFM=1 \
        OF_STATUS_INDENT_LEFT=48 \
        OF_STATUS_INDENT_RIGHT=48 \
        OF_SCREEN_H=2280 \
-       OF_STATUS_H=75
+       OF_STATUS_H=78
        
