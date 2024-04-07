@@ -28,7 +28,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := RMX1805
-PRODUCT_NAME := shrp_RMX1805
+PRODUCT_NAME := omni_RMX1805
 PRODUCT_BRAND := Oppo
 PRODUCT_MODEL := Realme 2
 PRODUCT_MANUFACTURER := Oppo

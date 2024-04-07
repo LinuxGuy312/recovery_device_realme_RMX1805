@@ -54,12 +54,12 @@ Proximity sensor | Yes
 Accelerometer | Yes
 Ambient light sensor | Yes
 
-**This device tree can be used to build twrp for Realme RMX1811 (Realme C1)**
+**This device tree can be used to build TWRP for Realme RMX1805 (Realme 2)**
 
 ## Build Instructions
 ```sh
 export ALLOW_MISSING_DEPENDENCIES=true
 source build/envsetup.sh
-lunch twrp_RMX1805-eng
+lunch omni_RMX1805-eng
 mka recoveryimage
 ```
