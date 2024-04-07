@@ -20,8 +20,8 @@
 export FOX_DELETE_AROMAFM=1 \
        FOX_VERSION=1 \
        OF_MAINTAINER="Eren (@WH0907)" \
-       OF_SCREEN_H=1520 \
-       OF_STATUS_H=50 \
+       OF_SCREEN_H=2280 \
+       OF_STATUS_H=52 \
        OF_STATUS_INDENT_LEFT=15 \
        OF_STATUS_INDENT_RIGHT=15 \
        OF_CLOCK_POS=1 \
