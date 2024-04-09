@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/ofrp_RMX1805.mk
+	$(LOCAL_DIR)/omni_RMX1805.mk
 
 COMMON_LUNCH_CHOICES := \
-	ofrp_RMX1805-eng \
-	ofrp_RMX1805-user \
-	ofrp_RMX1805-userdebug
+	omni_RMX1805-eng \
+	omni_RMX1805-user \
+	omni_RMX1805-userdebug

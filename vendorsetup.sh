@@ -17,13 +17,13 @@
 # This file is executed by build/envsetup.sh, and can use anything
 # defined in envsetup.sh.
 
-export FOX_DELETE_AROMAFM=1 \
+export TARGET_DEVICE_ALT="RMX1809, RMX1811" \
+       FOX_DELETE_AROMAFM=1 \
        FOX_VERSION=R11.1 \
        FOX_TARGET_DEVICES="RMX1809,RMX1811" \
        FOX_ENABLE_APP_MANAGER=1 \
        OF_MAINTAINER="Eren (@WH0907)" \
        OF_ALLOW_DISABLE_NAVBAR=0 \
-       TARGET_DEVICE_ALT="RMX1809, RMX1811" \
        OF_ENABLE_LPTOOLS=1 \
        OF_CLOCK_POS=1 \
        OF_STATUS_INDENT_LEFT=48 \
