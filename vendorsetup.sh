@@ -22,7 +22,7 @@ wget -qO $(pwd)/OFoxAvatar.png https://i.postimg.cc/85qM200Z/OFox-Avatar.png
 export \
        FOX_VERSION=R11.1_1 \
        OF_MAINTAINER="Eren (@WH0907)" \
-       OF_MAINTAINER_AVATAR="$(pwd)/OFoxAvatar.png"
+       OF_MAINTAINER_AVATAR="$(pwd)/OFoxAvatar.png" \
        OF_SCREEN_H=2280 \
        OF_STATUS_H=80 \
        OF_STATUS_INDENT_LEFT=48 \
