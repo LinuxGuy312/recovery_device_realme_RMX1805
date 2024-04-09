@@ -21,7 +21,7 @@ wget -qO $(pwd)/OFoxAvatar.png https://i.postimg.cc/cCgwfTqh/OFox-Avatar.png
 
 export TARGET_DEVICE_ALT="RMX1809, RMX1811" \
        FOX_DELETE_AROMAFM=1 \
-       FOX_VERSION=R11.1 \
+       FOX_VERSION=R11.1_1 \
        FOX_TARGET_DEVICES="RMX1809,RMX1811" \
        FOX_ENABLE_APP_MANAGER=1 \
        OF_MAINTAINER="Eren (@WH0907)" \
